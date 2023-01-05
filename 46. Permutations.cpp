@@ -26,3 +26,16 @@ public:
 
 //stl sol
 
+class Solution {
+public:
+    vector<vector<int>> permute(vector<int>& nums) {
+        vector<vector<int>>r;
+        sort(nums.begin(),nums.end());
+        do
+        {
+            r.push_back(nums);
+        }
+        while(next_permutation(nums.begin(),nums.end()));
+        return r;
+    }
+};
