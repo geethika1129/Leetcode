@@ -1,0 +1,33 @@
+class Solution {
+public:
+    vector<int> productExceptSelf(vector<int>& nums) {
+        
+             vector<int>ans(nums.size(),0);
+             long long mul=1;int c=0;
+             for(int i=0;i<nums.size();i++)
+             {
+                 if(nums[i]==0) 
+                 {
+                 c++;continue;
+                 }
+                 mul*=nums[i];
+             }
+             if(c>1) return ans;
+             for(int i=0;i<nums.size();i++)
+             {
+                 if(c==1) 
+                 {
+                     if(nums[i]==0) ans[i]=mul;
+                     else ans[i]=0;
+                 }
+                 else
+                 {
+                     ans[i]=mul/nums[i];
+                 }
+             }
+             
+
+        
+        return ans;
+    }
+};
