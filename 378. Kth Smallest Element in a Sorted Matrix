@@ -5,10 +5,13 @@ public:
         int n=matrix.size();
         for(int i=0;i<n*n;i++)
         {
+            //push each element in the sorted order
             q.push(matrix[i/n][i%n]);
+            //pop all elements greater then k
             if(q.size()>k) q.pop();
 
         }
+        //return the top most element les=ft after popping k top elements
         return q.top();
     }
 };
