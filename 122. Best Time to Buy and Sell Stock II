@@ -1,0 +1,15 @@
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int n=prices.size();
+        int ans=0;
+        //iterate form index 1 because we will be subtracting the i-1 index
+        for(int i=1;i<n;i++)
+        {
+            int d=prices[i]-prices[i-1];
+            //add only if diff is positive to get max profitt
+            if(d>0) ans+=d;
+        }
+        return ans;
+    }
+};
