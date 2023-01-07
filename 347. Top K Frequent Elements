@@ -1,0 +1,33 @@
+class Solution {
+public:
+    static bool cmp(pair<int,int>a,pair<int,int>b)
+    {
+        //sort according to frequencies 
+        //first value in pair is frequency
+        return a.first>b.first;
+    }
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        unordered_map<int,int>m;
+        vector<int>ans;
+        vector<pair<int,int>>ss;
+        for(int i=0;i<nums.size();i++)
+        {
+            m[nums[i]]++;
+        }
+        for(auto z:m)
+        {
+            //z.second is count --- first in pair
+            //z.first is element -- second inpair
+            ss.push_back({z.second ,z.first});
+        }
+        sort(ss.begin(),ss.end(),cmp);
+        for(int i=0;i<k;i++)
+        {
+            //here we should print the element which is second in pair
+            ans.push_back(ss[i].second);
+        }
+        return ans;
+    }
+
+   
+};
