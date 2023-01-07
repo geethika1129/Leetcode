@@ -19,7 +19,7 @@ public:
     }
 };
 
-
+//  other ways
 
 class Solution {
 public:
