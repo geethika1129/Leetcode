@@ -1,0 +1,24 @@
+ void func(int ind,vector<int> &arr,int n,vector<int> &ans,int sum)
+    {
+        if(ind==n) 
+        {
+            ans.push_back(sum);
+            return;
+        }
+        //take case
+        func(ind+1,arr,n,ans,sum+arr[ind]);
+        //backtrack--index moved but sum is not added
+         func(ind+1,arr,n,ans,sum);
+    }
+    
+    vector<int> subsetSums(vector<int> arr, int N)
+    {
+        // Write Your Code here
+        vector<int>ans;
+        int sum=0;
+        int ind=0;
+        func(ind,arr,N,ans,sum);
+        sort(ans.begin(),ans.end());
+        return ans;
+        }
+};
