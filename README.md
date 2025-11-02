@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0069-sqrtx](https://github.com/geethika1129/Leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/geethika1129/Leetcode/tree/master/0070-climbing-stairs) |
+| [0367-valid-perfect-square](https://github.com/geethika1129/Leetcode/tree/master/0367-valid-perfect-square) |
 ## Memoization
 |  |
 | ------- |
@@ -91,4 +92,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0035-search-insert-position](https://github.com/geethika1129/Leetcode/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/geethika1129/Leetcode/tree/master/0069-sqrtx) |
+| [0367-valid-perfect-square](https://github.com/geethika1129/Leetcode/tree/master/0367-valid-perfect-square) |
 <!---LeetCode Topics End-->
