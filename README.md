@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/geethika1129/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/geethika1129/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0747-min-cost-climbing-stairs](https://github.com/geethika1129/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/geethika1129/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -97,4 +98,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/geethika1129/Leetcode/tree/master/0069-sqrtx) |
 | [0367-valid-perfect-square](https://github.com/geethika1129/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0441-arranging-coins](https://github.com/geethika1129/Leetcode/tree/master/0441-arranging-coins) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/geethika1129/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 <!---LeetCode Topics End-->
